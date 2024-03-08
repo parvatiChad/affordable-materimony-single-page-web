@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@syncfusion/ej2-angular-progressbar": "^24.2.9"
+  }
+}

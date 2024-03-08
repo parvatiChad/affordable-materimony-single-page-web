@@ -102,6 +102,13 @@ figcaption {
   outline: 0;
 }
 
+.img-right {
+  width: 292px;
+  height: 120px;
+  border-radius: 20px 30px;
+  object-fit: cover;
+}
+
 /* clear fix */
 .grid:after {
   content: '';
@@ -1105,7 +1112,7 @@ Services Style
 .our-services {
   position: relative;
   margin-top: 0px;
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 
 .our-services .section-heading {
@@ -1117,6 +1124,18 @@ Services Style
   margin: 0px 60px;
   margin-bottom: -10px;
 }
+
+.back-btn {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 20px;
+  transition: color 0.8s ease-in-out;
+}
+
+.back-btn:hover {
+  color: black;
+}
+
 
 .our-services .item {
   text-align: center;
@@ -1596,6 +1615,7 @@ Video
   height: 471px;
   left: 0;
   top: 120px;
+  margin-top: 100px;
   position: absolute;
 }
 
@@ -1902,6 +1922,11 @@ footer .footer-item h4 {
   font-weight: 700;
   color: #2a2a2a;
   margin-bottom: 30px;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: center;
 }
 
 footer .about .logo img {
